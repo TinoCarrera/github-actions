@@ -21,10 +21,10 @@ jobs:
     - name: Run tests
       run: |
         echo "Test de suma:"
-        python -m unittest test_suma.py
+        python -m unittest tests/test_suma.py
         echo "Test de resta:"
-        python -m unittest test_resta.py
+        python -m unittest tests/test_resta.py
         echo "Test de multiplicación:"
-        python -m unittest test_multiplicacion.py
+        python -m unittest tests/test_multiplicacion.py
         echo "Test de división:"
-        python -m unittest test_division.py
+        python -m unittest tests/test_division.py
